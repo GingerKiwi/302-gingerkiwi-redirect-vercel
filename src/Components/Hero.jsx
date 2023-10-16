@@ -47,7 +47,7 @@ color='white'
 fontSize='1xl'
 fontWeight='bold'
 fontStyle={'italic'}
->There's like a post about the site you're looking for.</Text>
+>There's likely a post about the site you're looking for.</Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             
           </Stack>
