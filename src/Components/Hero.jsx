@@ -1,5 +1,5 @@
 'use client'
-import '@fontsource/architects-daughter';
+// import '@fontsource/architects-daughter';
 import {
   Flex,
   Image,
@@ -34,11 +34,20 @@ export default function Hero() {
   fontSize='4xl'
   fontWeight='extrabold'
 >
-  Don't worry, you're doing great. <br></br>The site your were looking for is under development. 
+  Don't worry! <br></br>You're doing great. <br></br>The site you're looking for is under development. 
 </Text>
-<Link href='https://gingerkiwi.blog' color='white'>
-  Visit The Ginger Kiwi blog: Exploring Technology, Accessibility, and Design
+<Link href='https://gingerkiwi.blog' 
+    color='white' 
+    fontSize='2xl'
+    fontWeight='extrabold'>
+  Visit The Ginger Kiwi Blog: <br></br>Exploring Technology, Accessibility, and Design
 </Link>
+<Text
+color='white' 
+fontSize='1xl'
+fontWeight='bold'
+fontStyle={'italic'}
+>There's like a post about the site you're looking for.</Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             
           </Stack>
