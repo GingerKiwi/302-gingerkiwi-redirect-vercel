@@ -36,18 +36,40 @@ export default function Hero() {
 >
   Don't worry! <br></br>You're doing great. <br></br>The site you're looking for is under development. 
 </Text>
+<Text
+color='white' 
+fontSize='xl'
+fontWeight='bold'
+// fontStyle={'italic'}
+>
+Visit my new Astro full stack blog and developer portfolio version of GingerKiwi.dev. While it's being built in public, it's temporarily being hosted at </Text>
+<Link href='https://gingerkiwi.xyz' 
+    color='white' 
+    fontSize='xl'
+    fontWeight='extrabold'>
+   gingerkiwi.xyz  <br></br>
+</Link>
+
+<Text
+color='white' 
+fontSize='xl'
+fontWeight='bold'
+// fontStyle={'italic'}
+>
+For all my blog content Exploring Technology, Accessibility, and Design visit </Text>
 <Link href='https://gingerkiwi.blog' 
     color='white' 
-    fontSize='2xl'
+    fontSize='xl'
     fontWeight='extrabold'>
-  Visit The Ginger Kiwi Blog: <br></br>Exploring Technology, Accessibility, and Design
-</Link>
+   gingerkiwi.blog  <br></br>
+</Link><br></br>
 <Text
 color='white' 
 fontSize='1xl'
 fontWeight='bold'
 fontStyle={'italic'}
->There's likely a post about the site you're looking for.</Text>
+>
+There's likely a post about the site you're looking for.</Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             
           </Stack>
