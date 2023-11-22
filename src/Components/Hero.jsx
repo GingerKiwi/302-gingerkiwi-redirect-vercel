@@ -38,7 +38,7 @@ export default function Hero() {
   I'm So Excited! 
 </Heading>
 <Image
-          alt={'HEY DEV: ADD ALT!!! AFTER CHOOSING IMAGE!!'}
+          alt={'round picture of a long necked sheep looking right at the viewer. There is a thick orange border around the image.'}
           objectFit={'cover'}
           src={
             comingsoon
