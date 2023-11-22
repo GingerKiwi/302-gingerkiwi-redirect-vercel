@@ -10,10 +10,7 @@ import {
 } from '@chakra-ui/react';
 
 // import { ExternalLinkIcon } from '@chakra-ui/icons';
-// import makingcode from '../assets/crew-4Hg8LH9Hoxc-unsplash.jpg'
-// import forestpath from '../assets/mitchell-hartley-UiRwwOz3sNs-unsplash.jpg'
-// import nowhere from '../assets/cdd20-4UlxniRxlHc-unsplash.jpg'
-import doinggreat from '../assets/jon-tyson-OZz8TK8T8MM-unsplash.jpg'
+import comingsoon from '../assets/qamma-farm-M7E6gxb1SV4-unsplash.jpg'
 
 export default function Hero() {
   return (
@@ -80,7 +77,7 @@ There's likely a post about the site you're looking for.</Text>
           alt={'HEY DEV: ADD ALT!!! AFTER CHOOSING IMAGE!!'}
           objectFit={'cover'}
           src={
-            doinggreat
+            comingsoon
           }
         />
       </Flex>
