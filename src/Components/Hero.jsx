@@ -1,5 +1,5 @@
 'use client'
-// import '@fontsource/architects-daughter';
+import '@fontsource/lakki-reddy';
 import {
   Flex,
   Image,
@@ -10,69 +10,16 @@ import {
 } from '@chakra-ui/react';
 
 // import { ExternalLinkIcon } from '@chakra-ui/icons';
-import comingsoon from '../assets/qamma-farm-M7E6gxb1SV4-unsplash.jpg'
+import comingsoon from '../assets/SheepHero_RoundFrameOrange600.png'
 
 export default function Hero() {
   return (
-    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} bgColor='black'>
+    <Stack minH={'80vh'} direction={{ base: 'column', md: 'row' }} bgColor='white'>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
-        <Stack spacing={6} w={'full'} maxW={'lg'}>
-        <Heading
-  bgGradient='linear(to-l, #7928CA, #FF0080)'
-  bgClip='text'
-  fontSize='6xl'
-  fontWeight='extrabold'
->
-  302 Redirect 
-</Heading>
-<Text
-  bgGradient='linear(to-l, #7928CA, #FF0080)'
-  bgClip='text'
-  fontSize='4xl'
-  fontWeight='extrabold'
->
-  Don't worry! <br></br>You're doing great. <br></br>The site you're looking for is under development. 
-</Text>
-<Text
-color='white' 
-fontSize='xl'
-fontWeight='bold'
-// fontStyle={'italic'}
->
-Visit my new Astro full stack blog and developer portfolio version of GingerKiwi.dev. While it's being built in public, it's temporarily being hosted at </Text>
-<Link href='https://gingerkiwi.xyz' 
-    color='white' 
-    fontSize='xl'
-    fontWeight='extrabold'>
-   gingerkiwi.xyz  <br></br>
-</Link>
-
-<Text
-color='white' 
-fontSize='xl'
-fontWeight='bold'
-// fontStyle={'italic'}
->
-For all my blog content Exploring Technology, Accessibility, and Design visit </Text>
-<Link href='https://gingerkiwi.blog' 
-    color='white' 
-    fontSize='xl'
-    fontWeight='extrabold'>
-   gingerkiwi.blog  <br></br>
-</Link><br></br>
-<Text
-color='white' 
-fontSize='1xl'
-fontWeight='bold'
-fontStyle={'italic'}
->
-There's likely a post about the site you're looking for.</Text>
-          <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+      {/* <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             
-          </Stack>
-        </Stack>
-      </Flex>
-      <Flex flex={1}>
+            </Stack> */}
+      {/* <Flex flex={1}>
         <Image
           alt={'HEY DEV: ADD ALT!!! AFTER CHOOSING IMAGE!!'}
           objectFit={'cover'}
@@ -80,7 +27,50 @@ There's likely a post about the site you're looking for.</Text>
             comingsoon
           }
         />
+      </Flex> */}
+        <Stack spacing={6} w={'full'} maxW={'lg'}>
+        <Heading
+  bgGradient='linear(to-l, #e11d48, #c2410c)'
+  bgClip='text'
+  fontSize='6xl'
+  fontWeight='extrabold'
+>
+  I'm So Excited! 
+</Heading>
+<Image
+          alt={'HEY DEV: ADD ALT!!! AFTER CHOOSING IMAGE!!'}
+          objectFit={'cover'}
+          src={
+            comingsoon
+          }
+        />
+<Text
+  bgGradient='linear(to-l, #7928CA, #FF0080)'
+  bgClip='text'
+  fontSize='4xl'
+  fontWeight='extrabold'
+>
+  Did You Hear That A New Version of Yarn Help! <br></br>is Coming Soon!
+</Text>
+<Text
+color='#6b21a8' 
+fontSize='xl'
+fontWeight='bold'
+// fontStyle={'italic'}
+>
+The new version is going to have a blog! <br></br>It's being built with Astro, Tailwind, and SQLite.</Text>
+<Link href='https://yarnhelp.app' 
+    color='#6b21a8' 
+    fontSize='xl'
+    fontWeight='extrabold'>
+   The current version is at https:/yarnhelp.app <br></br>
+</Link>
+
+
+         
+        </Stack>
       </Flex>
+      
     </Stack>
   )
 }
